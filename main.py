@@ -16,7 +16,7 @@ print("Python version:", sys.version)
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://mybizsherpa-project.vercel.app"],
+    allow_origins=["http://localhost:3000", "https://smart-chain-ai-frontend.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
